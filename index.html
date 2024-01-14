@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="about.js" defer></script>
+    <script src="https://kit.fontawesome.com/14c6fcea77.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <img src="https://previews.123rf.com/images/ylivdesign/ylivdesign1211/ylivdesign121100088/16526995-blue-movie-logo-on-a-black-background.jpg"
+                alt="" class="nav-img">
+            <div class="nav-links">
+                <a class="nav-link" href="#search" onclick="renderMovie()">Movies Search <i
+                        class="fa-solid fa-magnifying-glass nav-icon"></i></a>
+            </div>
+        </div>
+        <figure>
+            <img class="nav-figure-img" src="https://nutfieldchurchprimary.co.uk/wp-content/uploads/2023/03/movie.png"
+                alt="Cinema Night – 8th March 2023 – Nutfield Church Primary School" />
+        </figure>
+    </nav>
+    <main>
+        <section id="search">
+            <div class="container">
+                <div class="row">
+                    <div class="search-section">
+                        <h1 class="search-title">Movie Search</h1>
+                        <div class="search-form">
+                            <input type="text" class="search-input">
+                            <i class="fa-solid fa-magnifying-glass search-icon " onclick="renderMovie()"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="movie">
+            <div class="container">
+                <div class="row">
+                    <div class="movie-list" id="movie-list">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row footer-row">
+            <span class="footer-credits">Copyright © 2023.All right reserved</span>
+        </div>
+    </footer>
+</body>
+
+</html>
